@@ -1,8 +1,88 @@
-h1 {
+/* h1 {
     border: 10px dotted gold;
     border-radius: 50px;
     background-color: green;
     text-align: center;
     box-shadow: 5px 5px gray;
-    font-size: 100px;
+    font-size: 500px;
+}
+*/
+
+/* * {
+    border: 1px dashed blue;
+}
+*/
+/* Selector por id */
+/* #link1 {
+    font-size: 20px;
+} */
+
+/* #link6 {
+    background-color: tomato;
+} */
+/*selector por clase  */
+/* .rojo {
+    background-color: red;
+    border: 5px groove tomato;
+    border-radius: 5px;
+}
+
+.verde {
+    background-color: green;
+    border: 5px inset yellowgreen ;
+    border-radius: 5px;
+}
+
+h1.verde {
+    font-size: 50px;
+}
+ */
+/* buscar por atributo */
+
+/* [href] {
+    border-bottom: 5px solid blue;
+}
+
+
+[lang]{
+    color: aqua;
+} */
+
+
+[href="#"] {
+    background-color: green;
+}
+
+
+#mp1 {
+    border-top: 5px solid red;
+    border-bottom:5px solid red ;
+}
+
+#mp1 Main {
+    background-color: blueviolet;
+}
+
+#mp1 aside {
+    background-color: gold;
+}
+
+#mp1 > footer{
+    background-color: darkorange;
+}
+
+#mp1 article > footer{
+    border: 5px double gray;
+}
+
+#mp1 h2 ~ article {
+    box-shadow: 5px 5px 5px palevioletred;
+}
+
+/* #mp1 h2 + article {
+    border-top: 5px double blue;
+} */
+
+#mp1 h2 + article, #mp1 nav{
+    border-top: 5px double blue;
 }
